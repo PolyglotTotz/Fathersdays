@@ -97,11 +97,11 @@ def get_dates(year, day_type):
         dates.append(["🇦🇺 🇳🇿", first_sunday_in_september(year)])
         dates.append(["🇧🇷", second_sunday_in_august(year)])
         dates.append(["🇩🇪", ascension_day(year)])
-        dates.append(["🇪🇸 🇮🇹 🇧🇪 (Antwerp) 🇵🇹", march_19(year)])
+        dates.append(["🇪🇸 🇮🇹 🇧🇪 🇵🇹", march_19(year)])
         dates.append(["🇸🇪 🇫🇮 🇳🇴 🇪🇪", second_sunday_in_november(year)])
         dates.append(["🇹🇭", december_5(year)])
         dates.append(["🇷🇺", february_23(year)])
-        dates.append(["🇧🇪 (excluding Antwerp)", second_sunday_in_june(year)])
+        dates.append(["🇧🇪", second_sunday_in_june(year)])
         dates.append(["🇧🇬", june_20(year)])
         dates.append(["🇩🇰", june_5(year)])
         dates.append(["🇪🇬 🇯🇴 🇱🇧 🇸🇾 🇦🇪", june_21(year)])
@@ -113,7 +113,7 @@ def get_dates(year, day_type):
         dates.append(["🇹🇼", august_8(year)])
     elif day_type == "Mother's":
         # Calculate Mother's Day dates for the given year
-        dates.append(["🇺🇸 🇨🇦 🇦🇺 🇳🇿 🇩🇰 🇮🇳 🇮🇹 🇯🇵 🇨🇭 🇧🇪 (excluding Antwerp) 🇧🇷 🇫🇮 🇩🇪 🇳🇱 🇵🇰 🇿🇦 🇹🇷 🇵🇭 🇱🇰 🇪🇸 🇵🇹 🇸🇪 🇪🇪 🇳🇴 🇹🇼", second_sunday_in_may(year)])
+        dates.append(["🇺🇸 🇨🇦 🇦🇺 🇳🇿 🇩🇰 🇮🇳 🇮🇹 🇯🇵 🇨🇭 🇧🇪 🇧🇷 🇫🇮 🇩🇪 🇳🇱 🇵🇰 🇿🇦 🇹🇷 🇵🇭 🇱🇰 🇪🇸 🇵🇹 🇸🇪 🇪🇪 🇳🇴 🇹🇼", second_sunday_in_may(year)])
         dates.append(["🇬🇧", nth_weekday_in_month(year, 3, 6, 4)])  # Fourth Sunday in Lent (Mothering Sunday)
         dates.append(["🇦🇷", nth_weekday_in_month(year, 10, 6, 3)])  # Third Sunday in October
         dates.append(["🇰🇿 🇲🇽", datetime(year, 5, 10)])  # May 10
